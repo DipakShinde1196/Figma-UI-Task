@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma UI Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid mt-0">
+        <div class="row">
+
+            <!-- Hamburger -->
+            <nav class="navbar navbar-light bg-light d-lg-none ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo.png" alt="Logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                        aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Left Side section (Sidebar) -->
+            <div class="col-lg-2 col-md-12 border collapse d-lg-block" id="sidebarMenu">
+                <div class="p-1 mt-3 mb-3 d-none d-lg-block ">
+                    <img src="img/Logo.png" alt="Logo">
+                </div>
+
+                <div class="p-1">
+                    <div class="m-1">
+                        <ul class="nav flex-column">
+                            <li class="text-muted small"><small class="text-gray">OVERVIEW</small></li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-3">
+                        <p> <img class="me-2 mb-2" src="img/icon.png" alt="app"> App</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-ecommerce.png" alt="e-commerce"> E-commerce</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-Analytics.png" alt="analytics"> Analytics</p>
+                    </div>
+                    <div class="text-success">
+                        <p> <img class="me-2 mb-2" src="img/icon-bank.png" alt=""> Banking</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-book.png" alt=""> Booking</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-file.png" alt=""> File</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-course.png" alt=""> Course</p>
+                    </div>
+                </div>
+
+                <div class="p-1">
+                    <div class="m-1">
+                        <ul class="nav flex-column">
+                            <li class="text-muted small"><small class="text-gray">MANAGEMENT</small></li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-3">
+                        <p> <img class="me-2 mb-2" src="img/icon-user.png" alt=""> User <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-product.png" alt=""> Product <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-order.png" alt=""> Order <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-invoice.png" alt=""> Invoice <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-blog.png" alt=""> Blog <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-job.png" alt=""> Job <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-tour.png" alt=""> Tour <img class="float-end"
+                                src="img/right arrow.png" alt="arrow"></p>
+                    </div>
+
+                    <div class="mt-3">
+                        <p> <img class="me-2 mb-2" src="img/icon-file-manager.png" alt=""> File manager</p>
+                    </div>
+                    <div>
+                        <p>
+                            <img class="me-2 mb-2" src="img/icon-mail.png" alt=""> Mail
+                            <span class="badge bg-danger-subtle text-danger float-end">32+</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-chat.png" alt=""> Chat</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-calendar.png" alt=""> Calendar</p>
+                    </div>
+                    <div>
+                        <p> <img class="me-2 mb-2" src="img/icon-kanban.png" alt=""> Kanban</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Main Section  -->
+            <div class="col-lg-10 col-md-12 border pe-3 ps-3">
+                <!--  Navbar -->
+                <section class="ms-2 section1 p-2 d-none d-md-block">
+                    <nav class="navbar-expand-lg navbar-light d-none d-md-block">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img class="text-end" src="img/image (1).png" alt="">
+                            <img class="text-end" src="img/image.png" alt="">
+                        </div>
+                    </nav>
+                </section>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <!-- First Section  -->
+                        <section class="mt-1 p-3 rounded shadow">
+                            <div class="row align-items-center mb-2">
+                                <div class="col">
+                                    <small><b class="text-muted">Total balance</b> <i class="bi bi-info-circle"></i>
+                                    </small>
+                                </div>
+                                <div class="col text-end">
+                                    <small class="badge bg-secondary-subtle text-black"><i class="bi bi-arrow-up"></i>
+                                        Send</small>
+                                    <small class="badge bg-secondary-subtle text-black"><i class="bi bi-plus"></i> Add
+                                        card</small>
+                                    <small class="badge bg-secondary-subtle text-black"><i class="bi bi-arrow-down"></i>
+                                        Request</small>
+                                </div>
+                            </div>
+                            <div class="h3 mb-2 m-0">$36,963</div>
+
+                            <div class="row align-items-center mb-2 border bg-secondary-subtle rounded-2 m-0">
+                                <div class="col bg-light rounded-2 m-3">
+                                    <div class="text-end small m-2">
+                                        <small class="badge bg-success-subtle text-success"> <img
+                                                src="img/start icon.png" alt="start icon">
+                                            11.1%</small>
+                                    </div>
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <img src="img/stack1.png" alt="">
+                                        </div>
+                                        <div class="col">
+                                            <div class=" small">
+                                                <small>Income <i class="bi bi-info-circle"></i> </small>
+                                            </div>
+                                            <div class="h3 mb-2">$16,983</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col rounded-2 m-3">
+                                    <div class="text-end small m-2">
+                                        <small class="badge bg-danger-subtle text-danger"> <img
+                                                src="img/start icon red.png" alt="start icon red">
+                                            8.2%</small>
+                                    </div>
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <img src="img/stack.png" alt="">
+                                        </div>
+                                        <div class="col">
+                                            <div class=" small">
+                                                <small>Expenses <i class="bi bi-info-circle"></i> </small>
+                                            </div>
+                                            <div class="h3 mb-2">$09,990</div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 mb-2 mt-3">
+                                <div class="align-items-center">
+                                    <img class="mx-auto d-block" src="img/Graph.png" alt="first Graph"
+                                        style="width: 100%;">
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Second Section -->
+                        <section class="mt-4 p-3 rounded shadow">
+                            <div class="row align-items-center mb-2">
+                                <div class="col mt-2">
+                                    <div class="h5">
+                                        Balance Statistics
+                                    </div>
+                                    <div class="col text-gray text-muted">
+                                        <small>Statistics on balance over time </small>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="col text-end">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn dropdown-toggle border"
+                                                data-bs-toggle="dropdown">
+                                                Yearly
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center mb-2 mt-3">
+                                <div class="d-flex gap-3">
+                                    <div class="small">
+                                        <p>
+                                            <img src="img/dot.png" alt=""> Income (+43%)
+                                        </p>
+                                        <div class="h5">$16.19k</div>
+                                    </div>
+                                    <div class="small">
+                                        <p>
+                                            <img src="img/dot orange.png" alt=""> Saving (+3%)
+                                        </p>
+                                        <div class="h5">$35.71k</div>
+
+                                    </div>
+                                    <div class="small">
+                                        <p class="">
+                                            <img src="img/dot blue.png" alt=""> Investment (+8%)
+                                        </p>
+                                        <div class="h5">$34.30k</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mb-2">
+                                <div class="align-items-center">
+                                    <img class="mx-auto d-block" src="img/Graph 2.png" alt="first Graph"
+                                        style="width: 100%;">
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Third Section -->
+                        <section class="mt-4 p-3 rounded shadow">
+                            <div class="row mb-2">
+                                <div class="col mt-2">
+                                    <div class="h5">
+                                        Expenses Categories
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center mb-2">
+                                <div class="col-lg-5 col-sm-12 ">
+                                    <div class="p-2">
+                                        <img class="mx-auto d-block" src="img/PolarArea.png" alt="PolarArea">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="d-flex justify-content-center">
+                                        <table class="table-responsive">
+                                            <tbody class="small">
+                                                <tr>
+                                                    <td class="p-2"><img
+                                                            src="img/ic-streamline_dices-entertainment-gaming-dices-solid.png"
+                                                            alt=""> Entertainment (400$) </td>
+                                                    <td class="p-2"><img src="img/ic-maki_fuel.png" alt=""> Fuel ($540)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-2"><img src="img/ic-ion_fast-food.png" alt=""> Fast
+                                                        food ($240) </td>
+                                                    <td class="p-2"><img src="img/ic-maki_cafe.png" alt=""> Cafe ($140)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-2"><img src="img/ic-basil_mobile-phone-outline.png"
+                                                            alt=""> Connection ($30) </td>
+                                                    <td class="p-2"><img src="img/ic-solar_medical-kit-bold.png" alt="">
+                                                        Healthcare ($140) </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-2"><img src="img/ic-ic_round-fitness-center.png"
+                                                            alt=""> Fitness ($30) </td>
+                                                    <td class="p-2"><img src="img/ic-solar_cart-3-bold.png" alt="">
+                                                        Supermarket ($340) </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center mb-2">
+                                <div class="col mt-2 text-center">
+                                    <div class="col text-gray text-muted">
+                                        <small>Categories</small>
+                                    </div>
+                                    <div class="h3 mt-1">9</div>
+                                </div>
+
+                                <div class="col mt-2 text-center">
+                                    <div class="col text-gray text-muted">
+                                        <small>Total expenses</small>
+                                    </div>
+                                    <div class="h4 mt-1">$16.19k</div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Fourth Section -->
+                        <section class="mt-4 p-3 rounded shadow">
+                            <div class="row align-items-center mb-0">
+                                <div class="col mt-2">
+                                    <div class="h5">
+                                        Recent transitions
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Fifth Section -->
+                        <section>
+                            <div class="align-items-center mb-2 border rounded shadow">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr class="table-secondary">
+                                                <td class="text-muted"><small>Description <i class="bi bi-arrow-down">
+                                                        </i></small></td>
+                                                <td class="text-muted"><small>Date</small></td>
+                                                <td class="text-muted"><small>Amount</small></td>
+                                                <td class="text-muted"><small>Status</small></td>
+                                                <td class="text-muted"></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Data Row 1 -->
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="img/avatar1-1.png" alt="">
+
+                                                        <div class="text-start ms-3">
+                                                            <small class="fw-bold">Payment</small><br>
+                                                            <small class="text-muted text-gray text-start">Deja
+                                                                Brady</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td class="align-content-around">
+                                                    <small>10 Sep 2022</small><br>
+                                                    <small class="text-gray text-muted">08:00 PM</small>
+                                                </td>
+                                                <td class="align-content-around"><small>$34.30</small></td>
+                                                <td class="align-content-around">
+                                                    <span class="badge bg-success-subtle text-success">
+                                                        Completed
+                                                    </span>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </td>
+                                            </tr>
+                                            <!-- Data row 2 -->
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="img/avatar-new-1.png" alt="">
+
+                                                        <div class="text-start ms-3">
+                                                            <small class="fw-bold">Received</small><br>
+                                                            <small class="text-muted text-gray text-start">Lucian
+                                                                Obrien</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <small>11 Feb 2022</small><br>
+                                                    <small class="text-gray text-muted">9:00 PM</small>
+                                                </td>
+                                                <td class="align-content-around"><small>$35.71</small></td>
+                                                <td class="align-content-around">
+                                                    <span class="badge bg-warning-subtle text-warning">
+                                                        Progress
+                                                    </span>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </td>
+                                            </tr>
+                                            <!-- Data row 3 -->
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="img/avatar-new-2.png" alt="">
+
+                                                        <div class="text-start ms-3">
+                                                            <small class="fw-bold">Payment</small><br>
+                                                            <small class="text-muted text-gray text-start">Deja
+                                                                Brady</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td class="align-content-around">
+                                                    <small>10 Sep 2022</small><br>
+                                                    <small class="text-gray text-muted">08:00 PM</small>
+                                                </td>
+                                                <td class="align-content-around"><small>$34.30</small></td>
+                                                <td class="align-content-around">
+                                                    <span class="badge bg-danger-subtle text-danger">
+                                                        Faild
+                                                    </span>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </td>
+                                            </tr>
+
+                                            <!-- Data Row 4 -->
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="img/avatar-new-3.png" alt="">
+
+                                                        <div class="text-start ms-3">
+                                                            <small class="fw-bold">Payment</small><br>
+                                                            <small class="text-muted text-gray text-start">Deja
+                                                                Brady</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td class="align-content-around">
+                                                    <small>10 Sep 2022</small><br>
+                                                    <small class="text-gray text-muted">08:00 PM</small>
+                                                </td>
+                                                <td class="align-content-around"><small>$34.30</small></td>
+                                                <td class="align-content-around">
+                                                    <span class="badge bg-success-subtle text-success">
+                                                        Completed
+                                                    </span>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </td>
+                                            </tr>
+
+                                            <!-- Data Row 5 -->
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img src="img/avatar-new-4.png" alt="">
+
+                                                        <div class="text-start ms-3">
+                                                            <small class="fw-bold">Payment</small><br>
+                                                            <small class="text-muted text-gray text-start">Deja
+                                                                Brady</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td class="align-content-around">
+                                                    <small>10 Sep 2022</small><br>
+                                                    <small class="text-gray text-muted">08:00 PM</small>
+                                                </td>
+                                                <td class="align-content-around"><small>$34.30</small></td>
+                                                <td class="align-content-around">
+                                                    <span class="badge bg-success-subtle text-success">
+                                                        Completed
+                                                    </span>
+                                                </td>
+                                                <td class="align-content-around">
+                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="text-end pe-5 border-0" colspan="5">
+                                                    <button class="fw-bold border-0 bg-white">View all <i
+                                                            class="bi bi-chevron-right"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-3 p-0">
+                        <div>
+                            <img class="mx-auto d-flex" src="img/CurrentBalance.png" alt="content" style="width: 100%;">
+                        </div>
+
+                        <div class="p-3 bg-secondary-subtle rounded mt-2">
+                            <div class="h6 mb-2">
+                                <p>Quick Transfer</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="text-gray text-muted small">
+                                        <small>RECENT</small>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="text-black small text-end">
+                                        <small>View all <i class="bi bi-chevron-right"></i></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="img/quick transfer img.png" alt="" style="width: 100%;">
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="text-gray text-muted small">
+                                        <small>AMOUNT</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <div class="text-center">
+                                        <h3><sup>$ </sup>999.00</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="img/Slider.png" alt="Slider">
+                            </div>
+
+                            <div class="row mb-3 mt-3">
+                                <div class="col">
+                                    <div class="text-black fw-bold ">
+                                        <p>Your balance</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="text-black fw-bold text-end">
+                                        <p>$34,212.00 </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-dark btn-block fw-bold">Transfer now</button>
+                            </div>
+                        </div>
+
+                        <div class="p-3 rounded shadow mt-2 ">
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="text-black h6">
+                                        <p>Contacts</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="text-black small text-end">
+                                        <small>View all <i class="bi bi-chevron-right"></i></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-gray text-muted small">
+                                <p>You have 122 contacts</p>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="row d-flex">
+                                                    <div class="col-3">
+                                                        <div class="">
+                                                            <img src="img/avatar-first.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <div class="text-start">
+                                                    <small class="fw-bold">Reece Chung</small><br>
+                                                    <small class="text-muted text-gray">nannie.abernathy70@yahoo...
+                                                    </small>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <span>
+                                                    <img src="img/end icon.png" alt="">
+                                                </span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="row d-flex">
+                                                    <div class="col-3">
+                                                        <div class="">
+                                                            <img src="img/avatar-2.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <div class="text-start">
+                                                    <small class="fw-bold">Lawson Bass</small><br>
+                                                    <small class="text-muted text-gray">ashlynn.ohara62@gmail.com
+                                                    </small>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <span>
+                                                    <img src="img/end icon.png" alt="end icon">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="row d-flex">
+                                                    <div class="col-3">
+                                                        <div class="">
+                                                            <img src="img/avatar-3.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <div class="text-start">
+                                                    <small class="fw-bold">Lucian Obrien</small><br>
+                                                    <small class="text-muted text-gray">milo.farrel@hotmail.com
+                                                    </small>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <span>
+                                                    <img src="img/end icon.png" alt="end icon">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="row d-flex">
+                                                    <div class="col-3">
+                                                        <div class="">
+                                                            <img src="img/avatar-4.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <div class="text-start">
+                                                    <small class="fw-bold">Deja Brady</small><br>
+                                                    <small class="text-muted text-gray">violet.ratke@yahoo.com
+                                                    </small>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <span>
+                                                    <img src="img/end icon.png" alt="end icon">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="row d-flex">
+                                                    <div class="col-3">
+                                                        <div class="">
+                                                            <img src="img/avatar-5.png" alt="avatar">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <div class="text-start">
+                                                    <small class="fw-bold">Reece Chung</small><br>
+                                                    <small class="text-muted text-gray">lethu.lubowitz24@yahoo.com
+                                                    </small>
+                                                </div>
+                                            </td>
+                                            <td class="align-content-around">
+                                                <span>
+                                                    <img src="img/end icon.png" alt="end icon">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="p-3 rounded-2 mt-2 shadow" style="background-color: #007779;">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="text-white h6">
+                                        <p>Invite friends <br> and earn</p>
+                                        <span class="h2 fw-bold"> $50
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="align-content-center ">
+                                        <img class="img-fluid float-end " src="img/illustration-receipt.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-white small mb-4">
+                                <p>Praesent egestas tristique nibh. Duis lobortis massa imperdiet quam.</p>
+                            </div>
+
+                            <div class="bg-success-subtle rounded mb-4">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control bg-success-subtle" placeholder="Email"
+                                        aria-label="Email" aria-describedby="button-addon2">
+                                    <button class="btn btn-warning m-1 rounded borderless" type="button"
+                                        id="button-addon2">Invite</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
