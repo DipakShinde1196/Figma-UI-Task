@@ -34,7 +34,7 @@ The goal of this project was to convert a complex Figma wireframe into a pixel-p
 ## ⚙️ How to Run Locally
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/banking-dashboard.git](https://github.com/your-username/banking-dashboard.git)
+    git clone [https://github.com/DipakShinde1196/Figma-UI-Task.git](https://github.com/DipakShinde1196/Figma-UI-Task.git)
     ```
 2.  **Navigate to the project folder:**
     ```bash
