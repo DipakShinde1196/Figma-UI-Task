@@ -38,7 +38,7 @@ The goal of this project was to convert a complex Figma wireframe into a pixel-p
     ```
 2.  **Navigate to the project folder:**
     ```bash
-    cd banking-dashboard
+    cd BT-UI task
     ```
 3.  **Open in Browser:**
     Simply double-click the `index.html` file or use a "Live Server" extension in VS Code.
